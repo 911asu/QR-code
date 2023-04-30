@@ -1,0 +1,57 @@
+body {
+background-color:rgb(176,196,222);
+align-items: center;
+height: 100vh;
+display: flex;
+justify-content: center;
+}
+.qr-code {
+  background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    margin: 0px;
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  .qr-code {
+    padding: 20px;
+  }
+  
+  /* Styles for larger screens */
+  @media (min-width: 768px) {
+    .container {
+      padding: 40px;
+    }
+  }
+}
+
+.qr-code {
+  width: 100%;
+  max-width: 800px; 
+  margin: 0 auto; 
+}
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+p {
+  color: lightgray;
+}
+
+h1 {
+  font-family: font-family: 'Nanum Pen Script', cursive;
+  font: size 15px;
+  font-weight: bold;
+
